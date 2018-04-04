@@ -59,16 +59,16 @@ if ($success == 'yes') echo '<p style="color: green">success</p>';
 
 
 <form method="post">
-  <div class="form-group col-md-6">
-    <label for="inputName">Name</label>
+  <div class="form-group">
+    <label for="inputName">Name </label>
     <input type="text" name="name" class="form-control" id="inputName" placeholder="First and last name">
   </div>
   <div class="form-group">
-    <label for="inputEmail">Email</label>
+    <label for="inputEmail">Email </label>
     <input type="email" name="email" class="form-control" id="inputEmail" placeholder="Email">
   </div>
   <div class="form-group">
-    <label for="inputSeatNumber">Seat number</label>
+    <label for="inputSeatNumber">Seat number </label>
     <input type="text" name="seatNumber" class="form-control" id="inputSeatNumber" placeholder="Seat Number">
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
