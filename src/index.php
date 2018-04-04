@@ -86,10 +86,10 @@
 <main>
     <h1>The Cine Booking System</h1>
     <!-- include the form from Mireille -->
-    <?php include 'form.php'?>
+    <?php include_once "form.php"?>
     <!-- include the table.php -->
-    <?php include 'table.php'?>
-    <?php include 'seats.php'?>
+    <?php include_once "table.php"?>
+    <?php include_once "seats.php"?>
 </main>
 
 </body>
