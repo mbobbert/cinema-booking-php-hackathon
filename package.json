@@ -1,11 +1,11 @@
 {
-  "name": "MovieDatabase",
+  "name": "moviedatabase",
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {
     "del": "^3.0.0",
     "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0",
+    "gulp-sass": "^3.2.1",
     "gulp-watch": "^4.3.11"
   },
   "scripts": {
@@ -16,5 +16,13 @@
   "description": "A page about movies.",
   "dependencies": {
     "bootstrap": "^4.0.0-beta.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbobbert/cinema-booking-php-hackathon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mbobbert/cinema-booking-php-hackathon/issues"
+  },
+  "homepage": "https://github.com/mbobbert/cinema-booking-php-hackathon#readme"
 }
