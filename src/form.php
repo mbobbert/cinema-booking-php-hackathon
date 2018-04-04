@@ -1,7 +1,7 @@
 <?php
-
+include_once "env.php";
 $pdo = new PDO(
-  'mysql:host=localhost;dbname=cinema_booking','root', 'rootroot'
+  'mysql:host='.HOST.';dbname='.DBNAME, USERNAME, PASSWORD
 );
 
 
