@@ -15,7 +15,8 @@
   "license": "MIT",
   "description": "A page about movies.",
   "dependencies": {
-    "bootstrap": "^4.0.0-beta.3"
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1"
   },
   "repository": {
     "type": "git",
